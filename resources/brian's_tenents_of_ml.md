@@ -9,6 +9,10 @@ Brian's Tenets of ml
 
     Machine learning requires many components. Currently, the most difficult part is selecting and applying the correct components. The challenge of contemporary machine learning is building a working and robust system to accomplish the intended goal with minimal side effects.
 
+- Be precise in language.
+
+    You have to use the correct machine learning terms at all times. It will keep your thinking precise and help communicate clearly to collaborators. This is especially critical during learning how to use machine learning. That way sloppy language habits will not have to be unlearn.      
+
 - End-to-end quickly.
 
     It is not clear you that understand the problem and the solution space until you have a complete, working system. The problem might be easy (or possibly impossible). After getting a system working, then modular elements can be swapped out and explored.

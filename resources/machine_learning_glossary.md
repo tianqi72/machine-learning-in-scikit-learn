@@ -34,7 +34,7 @@ Term: Definition
 
 - Instance: The thing about which you want to make a prediction. For example, the instance might be a web page that you want to classify as either "about cats" or "not about cats".
 
-- Label: An answer for a prediction task ­­ either the answer produced by a machine learning system, or the right answer supplied in training data. For example, the label for a web page might be "about cats".
+- Label: An answer for a prediction task ­­either the answer produced by a machine learning system, or the right answer supplied in training data. For example, the label for a web page might be "about cats".
 
 - Metric: A number that you care about. May or may not be directly optimized.
 
@@ -43,7 +43,7 @@ Term: Definition
 - Objective: A metric that your algorithm is trying to optimize.
 
 - Optimization: The process of finding the best parameters for a specific model on a specific dataset. Common Examples: ordinary least squares (OLS) and Stochastic gradient descent (SGD)
-    - Constrained Optimization: Willing to accept a worse estimate of the model parameter to satisfy other external conditions. Common Examples: Lasso, Ridge, and Elastic Net regression
+    - Constrained Optimization: Willing to accept a worse estimate of the model parameters to satisfy other external conditions, typically regularization. Common Examples: Lasso, Ridge, and Elastic Net regression
 
 - Parameters:  
     - Model-parameters: 
@@ -56,6 +56,8 @@ Term: Definition
 - Pipeline: The infrastructure surrounding a machine learning algorithm. Includes gathering the data, putting it into tabular form, training models, and exporting the models to be used in other systems.
 
 - Supervised learning: This is the most common kind of (commercial) ML algorithm today where the system is presented with labeled examples to explicitly learn from.
+
+- Target - Labels for training dataset. The most common labels are numeric values for regression and set of discrete categories for classification.
 
 - Unsupervised learning: In contrast to supervised learning, the ML algorithm has to infer the inherent structure of the data that is not annotated with labels.
  

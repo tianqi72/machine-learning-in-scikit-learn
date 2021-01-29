@@ -16,7 +16,7 @@ Logistics
 
 __Instructor:__ Brian Spiering   
 __Contact__: [Slack DM](https://msan-usf.slack.com/messages/DAMAXHTL5) (more preferred) | [bspiering@usfca.edu](mailto:bspiering@usfca.edu) (less preferred)  
-__Office hours__: Thursdays 3:00-4:00 & By Appointment. Zoom link will be in Canvas and on Slack. 
+__Office hours__: Thursdays 4:00-5:00 & By Appointment. Zoom link will be in Canvas and on Slack. 
 __Grader__: Matthew King   
 __Contact__: [Slack DM](https://msan-usf.slack.com/team/UL209CWE5) | [mcking@usfca.edu](mailto:mcking@usfca.edu)  
 __Office hours__: By appointment  
@@ -74,6 +74,7 @@ The course will meet on Fridays from 2:20 to 4:20 in Zoom. The Zoom link is in C
 6. 03/05
     - Advanced scikit-learn
     - Related packages
+    - Student's choice
     
 7. 03/12
     - `sklearn.cluster` 
@@ -97,14 +98,14 @@ Grading
 ----
 
 | Item               | Weight  | Due Date & Time |
-|:-------------------|:-------:|:---------------:|
+|:-------------------|:-------:|:---------------|
 | Professionalism    | 10%     | Throughout      |
 | Assignment 1       | 10%     | 02/05 at 2:20p  |
 | Assignment 2       | 10%     | 02/12 at 2:20p  |
 | Assignment 3       | 10%     | 02/19 at 2:20p  |
 | Assignment 4       | 10%     | 02/26 at 2:20p  |
 | Assignment 5       | 10%     | 03/05 at 2:20p  |
-| Final Project (FP) | 40%     | 03/12 at 2:20p*  |
+| Final Project (FP) | 40%     | 03/12 at 2:20p* |
 | __Total__          | __100%__|                 |
 
 \* There will be small check-in assignments for the Final Project throughout the module to encourage you to not procrastinate.
@@ -115,11 +116,11 @@ Currently, there is no extra credit. If there is any extra credit, it is entirel
 
 We'll be using Canvas as the learning management system (LMS), aka the gradebook. The instructional team will do their best to have Canvas accurately reflect your current scores in the course. However, Canvas may not be completely accurate all the time. In other words, your actual grade may be significantly different than it appears on Canvas. 
 
-__Those deadlines are firm.__ Late assignments will only be accepted for medical emergencies. Asking for acceptance of any late assignments without a medical emergency or submitting assignments not through Canvas will result in a loss of professionalism points (and your assignment will still not be accepted).
+__Those deadlines are firm.__ I suggest turning assignments early and often. Late assignments will only be accepted for medical emergencies. Asking for acceptance of any late assignments without a medical emergency or submitting assignments not through Canvas will result in a loss of professionalism points (and your assignment will still not be accepted).
 
 ### Professionalism
 
-I expect you to act professionally in-person (both inside and outside the classroom) and electronically. Since people come up from a variety of backgrounds, I want to be explicit about the elements of professionalism: 
+I expect you act professionally at all times: in-person and electronically, during class and outside of class. Since people come up from a variety of backgrounds, I want to be explicit about the elements of professionalism: 
 
 - Show up on time and prepared.
 - Remain fully present.
