@@ -62,7 +62,7 @@ The course will meet on Fridays from 2:20 to 4:20 in Zoom. The Zoom link is in C
 
 3. 02/12
     - `sklearn.feature_selection`
-    - `sklearn.decomposition`
+    - Principal Component Analysis (PCA)
 
 4. 02/19
     - `sklearn.model_selection`
