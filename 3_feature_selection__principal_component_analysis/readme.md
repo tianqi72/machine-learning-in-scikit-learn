@@ -9,6 +9,7 @@ Required
 Optional
 ------
 
+- Review eigenvectors and eigenvalues. Suggested video [here](https://www.youtube.com/watch?v=PFDu9oVAE-g&ab_channel=3Blue1Brown) (18 minutes)
 - [Dimensionally reducing data squeezing out the good stuff ](https://www.youtube.com/watch?v=4QMFNg7tjbk) (35 minutes)
 - [Principal Component Analysis (PCA) using Python (Scikit-learn)](https://www.youtube.com/watch?v=kApPBm1YsqU) (20 minutes)
 - [A tutorial on Principal Components Analysis by
