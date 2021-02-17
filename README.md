@@ -66,9 +66,10 @@ The course will meet on Fridays from 2:20 to 4:20 in Zoom. The Zoom link is in C
 
 4. 02/19
     - `sklearn.model_selection`
-    - Classifiers 
+    - `imblearn.over_sampling.SMOTE`
     
 5. 02/26
+    - Classifiers 
     - Regressors
    
 6. 03/05
