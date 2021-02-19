@@ -24,6 +24,8 @@ Term: Definition
 
 - Algorithm: An unambiguous specification of how to solve a particular problem. In Machine Learning, an algorithm is a list of explicit steps that include: data ingest -> feature extraction -> train model -> predict -> evaluation metrics. Examples: linear regression and SVM
 
+- Data Leakage: Providing additional information during training that then lowers its performance during prediction on new data. Common example is encoding the target variable by mistake in an id variabel. Another example is looking at your test data set more than once. You are using additional information (test set performance) which might reduce your future performance.
+
 - Epoch: A complete pass through the training dataset.
 
 - Example: An instance (with its features) and a label.

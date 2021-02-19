@@ -29,6 +29,8 @@ Brian's Tenets of ml
 
     Contemporary machine learning is a practitioners domain. A majority of questions can be answered with cross-validation, including hyperparameters. Know the pragmatic ways to search hyperparameter space.
 
+    Remember - Different algorithms will perform better on different datasets. You often do not know which best algorithms will perform best before applying to the actual data.
+
 - Plan for what is next.
 
     Contemporary machine learning is iterative. It is rare to have fixed, batched data. There will almost always be new data and new questions. Build systems that thrive on being updated. Learn to apply incremental updates to every step.
