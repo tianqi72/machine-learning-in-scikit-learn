@@ -14,16 +14,15 @@ Machine learning can be nuanced and complex. It is important to be exposed to di
 
 Here is how 621 and 699 topics align according to the [621 Syllabus](https://github.com/parrt/msds621#regularization-for-linear-models):
 
-| Week   | Tuesday (621) | Thursday (621) | Friday (699) |  
-|:------:|:------|:---------|:------|
-| 1      | (Day 1) Linear Models        | (Day 2) Regularization       | __Overview of scikit-learn, sklearn.linear_model__    | 
-| 2      | (Day 3) Gradient Descent     | (Day 4) Bias / Variance      | __sklearn.preprocessing, sklearn.feature_extraction__ | 
-| 3      | (Day 5) Model Assessment     | (Day 6) Naive Bayes          | __sklearn.feature_selection, sklearn.decomposition__  | 
-| 4      | (Day 7) Decision trees  I    | (Day 8) Decision trees  II   | __sklearn.model_selection, Classifiers__              | 
-| 5      | (Day 9) Random Forest I      | (Day 10) Random Forest II    | __Regressors__                                        |
-| 6      | (Day 11) Feature engineering | (Day 12) Feature Importance  | __Advanced scikit-learn__                             |  
-| 7      | (Day 13) Clustering          | (Day 14) Exam                 | __sklearn.cluster__                                   | 
-
+| Week   | Tuesday (621)                 | Thursday (621)                     | Friday (699) |  
+|:------:|:------------------------------|:-----------------------------------|:-------------|
+| 1      | (Day 1) Linear Models         | (Day 2) Regularization             | __Overview of scikit-learn, sklearn.linear_model__    | 
+| 2      | (Day 3) Gradient Descent      | (Day 4) Bias / Variance            | __sklearn.preprocessing, sklearn.feature_extraction__ | 
+| 3      | (Day 5) Model Assessment      | (Day 6) Naive Bayes                | __sklearn.feature_selection, sklearn.decomposition__  | 
+| 4      | (Day 7) Decision trees (DT) I | (Day 8) DT II, Random Forest I     | __sklearn.model_selection__                           | 
+| 5      | (Day 9) Random Forest II      | (Day 10) Model assessment, Metrics | __Classifiers, Regressors__                           |
+| 6      | (Day 11) Feature engineering  | (Day 12) Feature Importance        | __Advanced scikit-learn__                             |  
+| 7      | (Day 13) Clustering           | (Day 14) Exam                      | __sklearn.cluster__                                   | 
 
 I'm already a Kaggle grandmaster and know everything about this topic. Do I still have to take this course?
 ---------------
