@@ -69,10 +69,11 @@ The course will meet on Fridays from 2:20 to 4:20 in Zoom. The Zoom link is in C
     - `imblearn.over_sampling.SMOTE`
     
 5. 02/26
-    - Classifiers 
-    - Regressors
-   
-6. 03/05
+    - Mutliclass Classifiers 
+    - Classification Metrics
+    
+6. 03/05  
+    - Ensembling
     - Advanced scikit-learn
     - Related packages
     - Student's choice
@@ -86,7 +87,7 @@ Textbooks
 
 There are no required textbooks. 
 
-The following books are optional (they are highly recommended):
+The following books are optional (and highly recommended):
 
 - [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by Chris Albon
 - [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) 2nd Edition by Aurélien Géron 
