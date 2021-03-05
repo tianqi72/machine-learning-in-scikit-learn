@@ -52,17 +52,20 @@ This project will become a part of your public Data Science portfolio, thus all 
     1. A video presentation. 
     2. A GitHub repository.
 
-    The presentation will be 6 minute public video on YouTube. If you have an issue with a public video on YouTube, please discuss it with me.
+    The presentation will be 6-7 minute public video on YouTube. If you have an issue with a public video on YouTube, please discuss it with me.
 
-    The GitHub repo should be public with a single Jupyter Notebook (.ipynb) notebook. 
+    The GitHub repo for this assignment should be public with a __single__ Jupyter Notebook (.ipynb) notebook and no subfolders. You can include other files (e.g., custom modules or code to deploy your model). 
 
-    I except the code to be reproducible (i.e., it will run on other people's computers). I will attempt to run it. 
+    I except the code to be reproducible (i.e., it will run on other people's computers). I will try run your notebook. So it transparant and testable for you, there are 2 options:
+
+    1. You include a colab link in the README that I will click on. 
+    2. If there is no clear colab link, I will attempt run it on DeepNote using the import from GitHub.
 
     Thus, I suggest creating a conda environment for your project to manage dependencies. Feel free to use a copy of the conda environment from the class.
 
     Regarding data management, that Jupyter Notebook should read in a single dataframe or numpy-like array. If that single object is less than 40 MB, it can committed to the GitHub repo. If that single object is too large for GitHub, store the data on a public file sharing service (e.g., AWS S3) and code within the Jupyter Notebook should fetch it. The total size is limited to 100 MB.
 
-    All other work should be somewhere else and will not be graded. 
+    All other work, such as exploratory data analysis, should not be in the repo and will not be graded. I suggest you have a second repo that contains the other work that might be of interest to other people (e.g., potential employers).
 
 ----
 Hints
@@ -92,7 +95,11 @@ FAQs
     Yes - If it is can be public and you get permission from your manager at the practicum organization.
 
     Most practicum data is not public, thus can not be used for this project.
-    
+
+1. Can I use \_\_\_\_\_\_\_\_ algorithm?
+
+    The goal of this project to review the course materials. After you have hyperparameter tuned at __least two different algorithms__ from 621 and/or 699, you can try other algorithms. 
+
 1. Can I use \_\_\_\_\_\_\_\_ software package?
 
     The goal of this project to review the course materials, this course has been in Python and primarily using scikit-learn package. __All code must be Python code__. The majority of your code should be in scikit-learn.

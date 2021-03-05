@@ -53,20 +53,21 @@ The course will meet on Fridays from 2:20 to 4:20 in Zoom. The Zoom link is in C
     - Machine learning workflow
     - Scikit-learn API Overview
         + Estimators
+        + Transformers
         + Pipelines
-    - `sklearn.linear_model` 
+    - Linear models
         
 2. 02/05
-    - `sklearn.preprocessing` 
-    - `sklearn.feature_extraction`
+    - Preprocessing
+    - Feature extraction
 
 3. 02/12
-    - `sklearn.feature_selection`
+    - Feature selection
     - Principal Component Analysis (PCA)
 
 4. 02/19
-    - `sklearn.model_selection`
-    - `imblearn.over_sampling.SMOTE`
+    - Model Selection
+    - Resampling with SMOTE
     
 5. 02/26
     - Mutliclass Classifiers 
@@ -74,12 +75,12 @@ The course will meet on Fridays from 2:20 to 4:20 in Zoom. The Zoom link is in C
     
 6. 03/05  
     - Ensembling
-    - Advanced scikit-learn
-    - Related packages
+    - Feature Importance
+    - Custom Classes
     - Student's choice
     
 7. 03/12
-    - `sklearn.cluster` 
+    - Clustering
     
 ----
 Textbooks
