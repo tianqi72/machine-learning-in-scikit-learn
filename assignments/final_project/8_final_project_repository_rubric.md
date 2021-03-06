@@ -49,7 +49,7 @@ Guidelines
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Feature Engineering
     + No exploratory data analysis (EDA) code in notebook
-    - All feature transformations in a Pipeline
+    - All feature transformations in a Pipeline. Target transformations can be done outside of a Pipeline.
     - Appropriate feature engineering for data types and algorithms types
     - Appropriately handled missing values 
 - Algorithms & Search
@@ -87,6 +87,8 @@ Guidelines
     + Code follows all [coding guidelines](https://github.com/brianspiering/ml_lab/blob/main/resources/coding_guidelines.md), [coding review rubric](https://github.com/brianspiering/ml_lab/blob/main/resources/code_review_rubric.md), and course materials
     - Code is logical and easy to read
     - `README.md` provides overview of project and understandable to someone outside of course
+        + The `README.md` is like an abstract Who are you? What is the project? Why is it important? What did you find?
     - No unnecessary code or commented out code
+    - The expectation is a comment / markdown cell for each block of code (just like 699 course materials)
     - All external code sources are cited
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
