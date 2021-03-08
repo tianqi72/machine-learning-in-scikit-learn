@@ -52,20 +52,24 @@ Guidelines
     - All feature transformations in a Pipeline. Target transformations can be done outside of a Pipeline.
     - Appropriate feature engineering for data types and algorithms types
     - Appropriately handled missing values 
+    - Each step has a comment on why it was done.
 - Algorithms & Search
     - Fit at least 2 algorithms from 621 / 699
     - Automated hyperparameter search across features, algorithms, and algorithm-specific hyperparameters
     - Automated model selection with cross validation
+    - Each hyperparameter has a comment on why is it important
 - Evaluation Metrics
     - Evaluated multiple evaluation metrics
     - All evaluation metrics are appropriate for problem and algorithm
     - Clearly described reasoning for choosing metrics
+    - Clearly describe what the evaluation metric says about the model results
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Machine learning mechanics
     + Proper train-test splitting
     + Proper train-test split size
-    + Call `.fit`` only on training datset
+    + Call `.fit`` only on training dataset
     + Only looked at test data set once
+    + Appropriate use of random seed
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Results / Conclusion
     - Visually displayed single, best final model 
