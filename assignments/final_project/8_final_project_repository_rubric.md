@@ -89,6 +89,7 @@ Guidelines
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Code Appearance 
     + Code follows all [coding guidelines](https://github.com/brianspiering/ml_lab/blob/main/resources/coding_guidelines.md), [coding review rubric](https://github.com/brianspiering/ml_lab/blob/main/resources/code_review_rubric.md), and course materials
+    + All imports should be at the begining of the notebook.
     - Code is logical and easy to read
     - `README.md` provides overview of project and understandable to someone outside of course
         + The `README.md` is like an abstract Who are you? What is the project? Why is it important? What did you find?

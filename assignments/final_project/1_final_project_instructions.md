@@ -65,7 +65,7 @@ This project will become a part of your public Data Science portfolio, thus all 
 
     Thus, I suggest creating a conda environment for your project to manage dependencies. Feel free to use a copy of the conda environment from the class.
 
-    Regarding data management, that Jupyter Notebook should read in a single dataframe or numpy-like array. If that single object is less than 40 MB, it can committed to the GitHub repo. If that single object is too large for GitHub, store the data on a public file sharing service (e.g., AWS S3) and code within the Jupyter Notebook should fetch it. The total size is limited to 100 MB. See FAQ about downsampling.
+
 
     All other work, such as exploratory data analysis, should not be in the repo and will not be graded. I suggest you have a second repo that contains the other work that might be of interest to other people (e.g., potential employers).
 
@@ -100,9 +100,30 @@ FAQs
 
     Most practicum data is not public, thus can not be used for this project.
 
+1. How big can my data be?
+
+    Your Jupyter Notebook should read in a __single__ dataframe or numpy-like array. The total size is limited to 100 MB. If that single object is less than 40 MB, it can committed to the GitHub repo. If that single object is between 40 MB and 100 MB, it can be store in __a different__ data-only repo on GitHub. Use this code:
+
+```
+    import pandas as pd
+
+    filename = 'loans.csv'
+    remote_location = 'https://raw.githubusercontent.com/DeltaAnalytics/machine_learning_for_good_data/master/'
+
+    try: 
+      # Local version 
+      df = pd.read_csv(filename)
+    except FileNotFoundError or ParserError: 
+      # Grab the remote file and save it    
+      df = pd.read_csv(remote_location+filename)
+      df.to_csv(filename)
+
+```
+
 1. Can I downsample my dataset?
 
     Yes - The goal of this project is practice course techniques on another dataset. The size of the dataset is not a criteria (other than being large enough to be amenable to machine learning). 
+
 
 1. I would like to very complex modeling. Is that okay?
 
@@ -123,6 +144,14 @@ FAQs
     Visualizations are important for understanding your system and communicating to your audience. Visualizations should be clear; They do not need to be beautiful. You can use any Python visualization package, suggestions are scikit-plot, Matplotlib, and Seaborn.
 
     You can use any third party Python packages. Try to use packages that are related to scikit-learn, see list [here](https://scikit-learn.org/stable/related_projects.html).
+
+1. If I use a some other package, what should I do?
+
+    As far packages goes, K.I.S.S. (keep it simple silly). 
+
+    I’m going to go your repo. Click on either a colab or deep note link. If there is no link, I’m going to try to import into deepnote with their tool. 
+
+    Colab and deepnote preinstall most of the packages. You can just pip install the remaining in the first cell.
 
 1. For the Final Project, how will model performance on my chosen evaluation metric effect my grade?
 
