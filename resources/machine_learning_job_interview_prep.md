@@ -14,3 +14,16 @@ For every machine learning technique on your resume or mentioned in the job post
 - Advantages and disadvantages relative to other techniques.
 
 (This list comes directly from MSDS alumnus.)
+
+-----
+Create a table fill it in your knowledge. Add one algorithm at time.
+
+| Algorithm           | Nontechnical |  Whiteboard | Loss Function | From Scratch | Parameters & Hyperparameters | Training | Use / Not Use | Comparison |
+|:------------------- |:------------:|:-----------:|:-------------:|:-----------: | :--------------------------: |:--------:| :-----------:| :----------:|
+| One hot encoding    |              |             |               |              |                              |          |              |             |
+| Embeddings          |              |             |               |              |                              |          |              |             |
+| Logistic Regression |              |             |               |              |                              |          |              |             |
+| Random Forest™      |              |             |               |              |                              |          |              |             |
+| k-means clustering  |              |             |               |              |                              |          |              |             |
+| Deep Learning       |              |             |               |              |                              |          |              |             |
+| Algorithm in job posting |         |             |               |              |                              |          |              |             |
