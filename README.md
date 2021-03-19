@@ -15,14 +15,6 @@ Logistics
 ----
 
 __Instructor:__ Brian Spiering   
-__Contact__: [Slack DM](https://msan-usf.slack.com/messages/DAMAXHTL5) (more preferred) | [bspiering@usfca.edu](mailto:bspiering@usfca.edu) (less preferred)  
-__Office hours__: Thursdays 4:00-5:00 & By Appointment. Zoom link will be in Canvas and on Slack. 
-__Grader__: Matthew King   
-__Contact__: [Slack DM](https://msan-usf.slack.com/team/UL209CWE5) | [mcking@usfca.edu](mailto:mcking@usfca.edu)  
-__Office hours__: By appointment  
-
-__Website__: [github.com/brianspiering/ml_lab](https://github.com/brianspiering/ml_lab)    
-__Communication__: Slack [`#msds699_ml_lab_2021`](https://msan-usf.slack.com/archives/C01JUUN0Q1F)  
 
 Prerequisites
 ----
